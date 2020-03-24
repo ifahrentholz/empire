@@ -5,14 +5,14 @@ const useRequest = url => {
   const [data, setData] = useState()
   const isLoading = !data
 
-  const getData = async () => {
-    // const { data: response } = await axios.get(url)
-    // setData(response)
+  const getData = async setData => {
+    const { data: response } = await axios.get(url)
+    setData(response)
   }
 
   useEffect(() => {
-    getData()
-  })
+    getData(setData)
+  }, [])
 
   return {
     isLoading,
