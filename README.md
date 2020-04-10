@@ -1,3 +1,10 @@
+### Slides
+https://slides.com/dijonmusters/deck#/
+
+### API
+https://github.com/ifahrentholz/empire
+
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
